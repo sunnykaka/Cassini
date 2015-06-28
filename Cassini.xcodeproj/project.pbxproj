@@ -13,6 +13,8 @@
 		40E962E01B3E3E2500F519F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E962DF1B3E3E2500F519F7 /* Images.xcassets */; };
 		40E962E31B3E3E2500F519F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E962E11B3E3E2500F519F7 /* LaunchScreen.xib */; };
 		40E962EF1B3E3E2500F519F7 /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E962EE1B3E3E2500F519F7 /* CassiniTests.swift */; };
+		40E962F91B3E3EE900F519F7 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E962F81B3E3EE900F519F7 /* DemoURL.swift */; };
+		40E962FB1B3E465500F519F7 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E962FA1B3E465500F519F7 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		40E962E81B3E3E2500F519F7 /* CassiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E962ED1B3E3E2500F519F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E962EE1B3E3E2500F519F7 /* CassiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniTests.swift; sourceTree = "<group>"; };
+		40E962F81B3E3EE900F519F7 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		40E962FA1B3E465500F519F7 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,11 @@
 		40E962D51B3E3E2500F519F7 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				40E962D81B3E3E2500F519F7 /* AppDelegate.swift */,
+				40E962F81B3E3EE900F519F7 /* DemoURL.swift */,
 				40E962DA1B3E3E2500F519F7 /* ViewController.swift */,
 				40E962DC1B3E3E2500F519F7 /* Main.storyboard */,
-				40E962DF1B3E3E2500F519F7 /* Images.xcassets */,
-				40E962E11B3E3E2500F519F7 /* LaunchScreen.xib */,
 				40E962D61B3E3E2500F519F7 /* Supporting Files */,
+				40E962FA1B3E465500F519F7 /* ImageViewController.swift */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -90,6 +93,9 @@
 		40E962D61B3E3E2500F519F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40E962D81B3E3E2500F519F7 /* AppDelegate.swift */,
+				40E962DF1B3E3E2500F519F7 /* Images.xcassets */,
+				40E962E11B3E3E2500F519F7 /* LaunchScreen.xib */,
 				40E962D71B3E3E2500F519F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +220,8 @@
 			files = (
 				40E962DB1B3E3E2500F519F7 /* ViewController.swift in Sources */,
 				40E962D91B3E3E2500F519F7 /* AppDelegate.swift in Sources */,
+				40E962FB1B3E465500F519F7 /* ImageViewController.swift in Sources */,
+				40E962F91B3E3EE900F519F7 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
